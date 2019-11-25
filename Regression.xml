@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="port" value="12821"/>
+  <parameter name="baseURI" value="https://inglnqw401.corp.amdocs.com"/>
+   <test name ="Test" thread-count="5" >
+     <parameter name="docId" value= "34523452" />
+     <parameter name="docType" value="p"/>  
+     <parameter name="password" value="Unix11!"/> 
+     <parameter name="productId" value="100001929"/>
+     <!-- <groups>
+           <run>
+           <include name ="COP"/>
+           </run>
+     </groups>-->
+    <groups>
+           <run>
+           <include name ="Anonymouse"/>
+           </run>
+     </groups>
+     
+    <classes> 
+      <class name="tfc_rest_auto.McssTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+  
