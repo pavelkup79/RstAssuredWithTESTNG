@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <parameter name="port" value="12821"/>
-  <parameter name="baseURI" value="https://inglnqw401.corp.amdocs.com"/>
+  <parameter name="baseURI" value="https://localhost"/>
    <test name ="Test" thread-count="5" >
      <parameter name="docId" value= "34523452" />
      <parameter name="docType" value="p"/>  
