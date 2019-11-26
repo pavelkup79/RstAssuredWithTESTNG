@@ -6,7 +6,7 @@
    <test name ="Test" thread-count="5" >
      <parameter name="docId" value= "34523452" />
      <parameter name="docType" value="p"/>  
-     <parameter name="password" value="Unix11!"/> 
+     <parameter name="password" value="somePassword"/> 
      <parameter name="productId" value="100001929"/>
      <!-- <groups>
            <run>
